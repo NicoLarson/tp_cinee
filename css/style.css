@@ -23,7 +23,8 @@ main section {
 
 section figure {
     background-color: var(--color-primary);
-    width: calc(100% / 3);
+    /* width: calc(100% / 3); */
+    width: 100%; /** correction */
     margin: 1rem 0 1rem 1rem;
 }
 
@@ -32,8 +33,9 @@ section figure:last-child {
 }
 
 section figure img {
+    display: block; /** correction */
     width: 100%;
-    margin-bottom: -0.4rem;
+    /* margin-bottom: -0.4rem; */
 }
 
 figure figcaption h2 {

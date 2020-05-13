@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
         genre: "Dramatique, guerre",
         dvd: "19 mars 2005",
         real: "Victor Fleming"
-    }, ]
+    } ]
 
     for (let i = 0; i < cine.length; i++) {
         target.innerHTML +=

@@ -2,7 +2,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const target = document.querySelector("section")
 
-    //* Creation tableaux    
     let cine = [{
         image: "./asset/img/king-kong.jpg",
         titre: "King Kong",
@@ -29,24 +28,21 @@ document.addEventListener("DOMContentLoaded", () => {
     for (let i = 0; i < cine.length; i++) {
         target.innerHTML +=
             `<figure>
-    <img src="${cine[i].image}" alt="${cine[i].titre}">
-    <figcaption>
-        <h2>${cine[i].titre}</h2>
-        <dl>
-            <dt>Date</dt>
-            <dd>${cine[i].date}<br></dd>
-            
-            <dt>Réal</dt>
-            <dd>${cine[i].real}<br></dd>
-            
-            <dt>Genre</dt>
-            <dd>${cine[i].genre}<br></dd>
-            
-            <dt>Sortie dvd</dt>
-            <dd>${cine[i].dvd}</dd>
-        </dl>
-    </figcaption>
-</figure>
+                <img src="${cine[i].image}" alt="${cine[i].titre}">
+                <figcaption>
+                    <h2>${cine[i].titre}</h2>
+                    <dl>
+                        <dt>Date</dt>
+                        <dd>${cine[i].date}<br></dd>
+                        <dt>Réal</dt>
+                        <dd>${cine[i].real}<br></dd>
+                        <dt>Genre</dt>
+                        <dd>${cine[i].genre}<br></dd>
+                        <dt>Sortie dvd</dt>
+                        <dd>${cine[i].dvd}</dd>
+                    </dl>
+                </figcaption>
+            </figure>
     `
     }
 })

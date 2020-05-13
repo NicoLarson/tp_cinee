@@ -1,0 +1,61 @@
+:root {
+    --color-primary: #efffff;
+    --color-primaryDark: #2f86de;
+    --color-black: #222;
+    --color-grey: rgb(200, 200, 200);
+    --color-white: #fff;
+}
+
+/* Theme */
+header h1 {
+    text-align: center;
+    font-weight: lighter;
+    margin: 1rem;
+}
+
+main section {
+    display: flex;
+    max-width: 80rem;
+    margin: 0 auto;
+    border: 0.1rem solid var(--color-grey);
+    border-radius: 0.1rem;
+}
+
+section figure {
+    background-color: var(--color-primary);
+    width: calc(100% / 3);
+    margin: 1rem 0 1rem 1rem;
+    border-radius: 0.1rem;
+}
+
+section figure:last-child {
+    margin-right: 1rem;
+}
+
+section figure img {
+    width: 100%;
+    margin-bottom: -0.4rem;
+}
+
+figure figcaption h2 {
+    background-color: var(--color-primaryDark);
+    color: var(--color-white);
+    text-align: center;
+    padding: 0.3rem;
+    margin-bottom: 0.5rem;
+}
+
+figure figcaption dl {
+    padding: 0.5rem;
+    line-height: 1.5rem;
+}
+
+figure figcaption dl dt {
+    display: inline;
+    color: var(--color-primaryDark);
+    }
+
+figure figcaption dl dd {
+    display: inline;
+    color: var(--color-black);
+}

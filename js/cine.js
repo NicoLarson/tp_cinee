@@ -34,14 +34,14 @@ document.addEventListener("DOMContentLoaded", () => {
         <h2>${cine[i].titre}</h2>
         <dl>
             <dt>Date</dt>
-            <dd>${cine[i].date}</dd>
-            <br>
+            <dd>${cine[i].date}<br></dd>
+            
             <dt>Réal</dt>
-            <dd>${cine[i].real}</dd>
-            <br>
+            <dd>${cine[i].real}<br></dd>
+            
             <dt>Genre</dt>
-            <dd>${cine[i].genre}</dd>
-            <br>
+            <dd>${cine[i].genre}<br></dd>
+            
             <dt>Sortie dvd</dt>
             <dd>${cine[i].dvd}</dd>
         </dl>
